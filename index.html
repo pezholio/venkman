@@ -1,16 +1,100 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<style type="text/css">
+body {
+  background-color: #241e20;
+}
+
+#inner {
+   margin: 200px auto;
+   width: 980px;
+}
+
+#video {
+   float: left;
+}
+
+#contact { 
+  float: right;
+  width: 200px;
+  margin-top: -40px
+}
+
+h1 {
+  background-image: url('http://imgur.com/lCreS8g.png');
+  background-repeat: no-repeat;
+  display: block;
+  width: 200px;
+  height: 223px;
+  text-indent: -9999px;                 /* sends the text off-screen */
+  white-space: nowrap;  
+}
+
+#social {
+  list-style-type: none;
+  margin: 40px 0 0 30px;
+  padding: 0;
+}
+
+#social li {
+  display: inline-block;
+  float: left;
+    text-indent: -9999px;                 /* sends the text off-screen */
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+}
+
+#social li a {
+  width: 43px;
+  height: 42px;
+  display: block;
+    background-repeat: no-repeat;
+  
+}
+
+a#facebook {
+   background-image: url('http://i.imgur.com/6ilMQwj.png');
+}
+
+a#youtube {
+   background-image: url('http://i.imgur.com/4IScT5j.png');
+}
+
+a#soundcloud {
+   background-image: url('http://i.imgur.com/h4BZTqD.png');
+   margin: 0 3px;
+}
+
+#email {
+  width: 52px;
+  height: 21px;
+  background-image: url('http://i.imgur.com/sEpJCyo.png');
+  background-repeat: no-repeat;
+    text-indent: -9999px;                 /* sends the text off-screen */
+  white-space: nowrap;
+  margin-top: 20px;
+  margin-right: 40px;
+  display: block;
+  float: right;
+}
+
+</style>
 <link rel="shortcut icon" href="http://venkmanband.co.uk/img/favicon.png"> 
 <title>Venkman Band | Venkman Music | Venkman UK | Kakorrhaphiophobia‎</title>
 <meta name="description" content="Official site for UK band Venkman. Get the latest news, videos, and photos. Hear tracks from the debut LP, Kakorrhaphiophobia,‎ and single Martial Law.  ">
 </head>
 <body>
 	<div id="top"></div>
-	<div id="inner">
-		<h1>Venkman band</h1>
+        <div id="inner">
+	<div id="video">
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/maZ5EZCNVOU" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div id="contact">
+        <h1>Venkman band</h1>
 		<ul id="social">
 			<li><a href="http://www.youtube.com/channel/UCtcuvIN0SosR18A6pq_0-7Q" id="youtube">Venkman Band YouTube</a></li>
 			<li><a href="https://soundcloud.com/venkman-musics" id="soundcloud">Venkman Band Soundcloud</a></li>
@@ -18,6 +102,7 @@
 		</ul>
 		<p><a href="mailto:venkmanmusic@hotmail.co.uk" id="email">venkmanmusic@hotmail.co.uk</a></p>
 	</div>
+        </div>
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
